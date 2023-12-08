@@ -61,7 +61,6 @@ public class ExplicitWaitTest extends DriverSetUp {
         log.info("Expected message: '" + expectedMessage + "'. Actual message: '" + actualMessage + "'");
     }
 
-
     private void waitToBeClickableAndClick(By locator) {
         WebElement element = defaultWait.until(ExpectedConditions.elementToBeClickable(locator));
         element.click();
@@ -100,7 +99,6 @@ public class ExplicitWaitTest extends DriverSetUp {
         WebElement element = driver.findElement(locator);
         element.sendKeys("United States");
     }
-
 
     private void subscribeToNewsletter() {
         WebElement newsletterCheckbox = driver.findElement(By.id("newsletter"));
