@@ -68,6 +68,4 @@ public class ImplicitWaitTest extends DriverSetUp {
 
         log.info("Expected message: '" + expectedMessage + "'. Actual message: '" + actualMessage + "'");
     }
-
-
 }
